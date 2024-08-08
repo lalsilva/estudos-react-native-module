@@ -14,7 +14,7 @@ export default function App() {
   }, [setTheme]);
 
   // Toggle between dark and light theme
-  const nextTheme = theme === "dark" ? "light" : "dark";
+  const nextTheme: Settings.Theme = theme === "dark" ? "light" : "dark";
 
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
